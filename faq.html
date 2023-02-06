@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <title>FAQs</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html">Malwandla's Bakery</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faq.html">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- FAQ Page -->
+    <!-- FAQs -->
+    <div class="container my-5">
+      <h1 class="text-center">FAQs</h1>
+      <p class="text-center">Answers to some common questions:</p>
+      <div class="accordion" id="faqAccordion">
+        <div class="card">
+          <div class="card-header" id="faqOne">
+            <h2 class="mb-0">
+              <button
+                class="btn"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What are your hours of operation?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="faqOne"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              Our bakery is open 7 days a week from 7 AM to 7 PM.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="faqTwo">
+            <h2 class="mb-0">
+              <button
+                class="btn collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Do you offer gluten-free options?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="faqTwo"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              Yes, we offer a selection of gluten-free baked goods. Please
+              inquire with one of our staff members for more information.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="faqThree">
+            <h2 class="mb-0">
+              <button
+                class="btn collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                How far in advance do I need to place an order?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="faqThree"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              We recommend placing orders at least 3 days in advance to ensure
+              availability. For custom cakes and bulk orders, we recommend
+              ordering even further in advance.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="faqFour">
+            <h2 class="mb-0">
+              <button
+                class="btn collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Do you deliver? What are the delivery charges?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="faqFour"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              Yes, we offer delivery services for a fee of R50. Delivery is
+              available within Braamfotein..
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="faqFive">
+            <h2 class="mb-0">
+              <button
+                class="btn collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                What payment methods do you accept?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="faqFive"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              We accept cash, credit card, online payment, and soon applePay
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .custom-footer {
+        background-color: #333;
+        color: #fff;
+        margin-top: 50px;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+      }
+    </style>
+    <footer class="footer footer-fluid py-3 custom-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-muted">&copy; Malwandla's bakery 2023</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-inline float-right">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.linkedin.com/in/malwandla-hlungwani-92443414b/"
+                >
+                  <i class="fab fa-linkedin">&nbsp;LinkedIn</i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/MalwandlaShaun">
+                  <i class="fab fa-github">&nbsp;GitHub</i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="mailto:hlungwanimalwandlashaun@gmail.com">
+                  <i class="fas fa-envelope">&nbsp;email</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Add Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Malwandla's Bakery</title>
+    <!-- Add Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <style>
+      /* Add custom styles here */
+      .jumbotron {
+        background-image: url("./imgs/background_image.jpg");
+        background-size: cover;
+        height: 500px;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Malwandla's Bakery</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faq.html">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid d-flex align-items-center">
+      <div class="container text-center">
+        <h1 class="display-3">Malwandla's Bakery</h1>
+        <p class="lead">Freshly Baked Goodies Everyday</p>
+        <a href="./menu.html" class="btn btn-danger btn-lg">See Our Menu</a>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2 class="text-center mb-5">Our Specialties</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./imgs/cake.avif"
+              class="card-img-top"
+              alt="Cakes"
+              style="width: 100%; height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Cakes</h4>
+              <p class="card-text">
+                Indulge in our mouth-watering cakes, freshly baked every day
+                with love.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./imgs/bread.avif"
+              class="card-img-top"
+              alt="Bread"
+              style="width: 100%; height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Bread</h4>
+              <p class="card-text">
+                Our bread is made with the finest ingredients and baked to
+                perfection.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./imgs/pastry.avif"
+              class="card-img-top"
+              alt="Pastries"
+              style="width: 100%; height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Pastries</h4>
+              <p class="card-text">
+                Treat yourself to one of our delicious pastries, perfect for any
+                time of day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .custom-footer {
+        background-color: #333;
+        color: #fff;
+        margin-top: 50px;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+      }
+    </style>
+
+    <footer class="custom-footer py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-muted">&copy; Malwandla's bakery 2023</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-inline float-right">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.linkedin.com/in/malwandla-hlungwani-92443414b/"
+                >
+                  <i class="fab fa-linkedin">&nbsp;LinkedIn</i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/MalwandlaShaun">
+                  <i class="fab fa-github">&nbsp;GitHub</i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="mailto:hlungwanimalwandlashaun@gmail.com">
+                  <i class="fas fa-envelope">&nbsp;email</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Add Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
